@@ -1,0 +1,44 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-reactamplifiedrestfu-dev-222650-authRole",
+      "UnauthRoleArn": "arn:aws:iam::694018784548:role/amplify-reactamplifiedrestfu-dev-222650-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::694018784548:role/amplify-reactamplifiedrestfu-dev-222650-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-reactamplifiedrestfu-dev-222650-deployment",
+      "UnauthRoleName": "amplify-reactamplifiedrestfu-dev-222650-unauthRole",
+      "StackName": "amplify-reactamplifiedrestfu-dev-222650",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:694018784548:stack/amplify-reactamplifiedrestfu-dev-222650/d0d4a640-872c-11eb-b4b5-0e9ed3f1b3df",
+      "AmplifyAppId": "d39ccbf02ctwkv"
+    },
+    "categories": {
+      "function": {
+        "reactamplifiedrestfucfdb6141": {
+          "deploymentBucketName": "amplify-reactamplifiedrestfu-dev-222650-deployment",
+          "s3Key": "amplify-builds/reactamplifiedrestfucfdb6141-7254754945426e504e65-build.zip"
+        }
+      }
+    }
+  },
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-reactamplifiedrestfu-prod-05614-authRole",
+      "UnauthRoleArn": "arn:aws:iam::694018784548:role/amplify-reactamplifiedrestfu-prod-05614-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::694018784548:role/amplify-reactamplifiedrestfu-prod-05614-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-reactamplifiedrestfu-prod-05614-deployment",
+      "UnauthRoleName": "amplify-reactamplifiedrestfu-prod-05614-unauthRole",
+      "StackName": "amplify-reactamplifiedrestfu-prod-05614",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:694018784548:stack/amplify-reactamplifiedrestfu-prod-05614/1819c0c0-5523-11ec-9b2d-0a523be6e107",
+      "AmplifyAppId": "d39ccbf02ctwkv"
+    },
+    "categories": {
+      "function": {
+        "reactamplifiedrestfucfdb6141": {
+          "deploymentBucketName": "amplify-reactamplifiedrestfu-prod-05614-deployment",
+          "s3Key": "amplify-builds/reactamplifiedrestfucfdb6141-73774278706e36666d4f-build.zip"
+        }
+      }
+    }
+  }
+}

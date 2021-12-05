@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "reactamplifiedrestfucfdb6141",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/items"
+        }
+    ],
+    "resourceName": "myrest",
+    "apiName": "myrest",
+    "functionArns": [
+        {
+            "lambdaFunction": "reactamplifiedrestfucfdb6141"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-reactamplifiedrestfu-dev-222650-authRole",
+        "unAuthRoleName": "amplify-reactamplifiedrestfu-dev-222650-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "reactamplifiedrestfucfdb6141",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
